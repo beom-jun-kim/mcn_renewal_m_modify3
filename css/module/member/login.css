@@ -1,0 +1,258 @@
+.xans-member-login {
+    margin: 14px auto 29px;
+    border-top: 1px solid #c8cdd2;
+}
+
+.xans-member-login .loginWrap {
+    background: #fff;
+}
+
+.xans-member-login .titleArea {
+    max-width: 320px;
+    height: 43px;
+    margin: 0 auto;
+}
+
+.xans-member-login .loginHeader {
+    padding-right: 14px;
+}
+
+.xans-member-login .loginHeader:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.xans-member-login fieldset,
+.xans-myshop-orderhistorynologin fieldset {
+    margin-top: 30px;
+}
+
+.xans-member-login .keyboard {
+    line-height: 43px;
+    text-align: right;
+}
+
+.xans-member-login .keyboard .btnKey {
+    position: relative;
+    padding: 0 20px 0 0;
+    color: #757575;
+    font-size: 11px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.xans-member-login .keyboard .btnKey.korean {
+    display: inline-block;
+    margin: 0 14px 0 0;
+}
+
+.xans-member-login .keyboard .btnKey.special {
+    display: inline-block;
+    margin: 0;
+}
+
+.xans-member-login .keyboard .btnKey:focus {
+    outline: none;
+}
+
+.xans-member-login .keyboard .btnKey:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 13px;
+    height: 8px;
+    margin: -3px 0 0;
+    background: url("//img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_toggle_arrow_down.png") no-repeat 0 50%;
+    background-size: 100% 100%;
+}
+
+.xans-member-login .keyboard .btnKey.selected {
+    color: #508bed;
+    border: none;
+}
+
+.xans-member-login .keyboard .btnKey.selected:before {
+    background-image: url("//img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_toggle_arrow_up.png");
+}
+
+.xans-member-login .view {
+    text-align: center;
+}
+
+.xans-member-login .view>div {
+    display: none;
+    padding: 0 0 14px;
+}
+
+.xans-member-login .formBox {
+    position: relative;
+    margin: 0px 14px 0;
+    font-size: 11px;
+}
+
+.xans-member-login .formBox:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.xans-member-login .formBox .form {
+    margin: 0 0px 0 0;
+}
+
+.xans-member-login .formBox .form input[type="text"],
+.xans-member-login .formBox .form input[type="password"] {
+    width: 100%;
+    height: 43px;
+}
+
+.xans-member-login .formBox .form input[type="text"] {
+    margin: 0 0 7px;
+}
+
+.xans-member-login .formBox .option {
+    overflow: hidden;
+    line-height: 43px;
+    font-size: 15px;
+}
+
+.xans-member-login .formBox .option>span {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.xans-member-login .formBox .option>span img {
+    margin-top: -3px;
+}
+
+.xans-member-login .formBox .option>span:last-child {
+    margin-right: 0;
+}
+
+.xans-member-login .formBox .option .ssl img {
+    width: 14px;
+    margin: 0 3px 0 0;
+    vertical-align: sub;
+}
+
+.xans-member-login input[type=checkbox] + label {
+    font-size: 15px;
+}
+
+.xans-member-login .loginUtil {
+    text-align: right;
+}
+
+.xans-member-login .joinMember,
+.xans-myshop-orderhistorynologin .btnEm {
+    display: block;
+    border: 2px solid #000;
+    width: 100%;
+    text-align: center;
+}
+
+.xans-member-login .btnApple .loginSnsIcon {
+    background: url('/web/img/22_mcn_renewal_img/mobile/apple_login.png') no-repeat center/cover;
+    margin-top: 7px;
+    width: 48px;
+    height: 58px;
+}
+
+.xans-member-login .btnNaver .loginSnsIcon,
+.xans-member-login .btnFacebook .loginSnsIcon,
+.xans-member-login .btnGoogle .loginSnsIcon,
+.xans-member-login .btnKakao .loginSnsIcon {
+    background: url('/web/img/22_mcn_renewal_img/mobile/login_sns_icon.png') no-repeat center/cover;
+    width: 54px;
+    height: 78px;
+    background-size: 324px 167px;
+}
+
+.xans-member-login .btnNaver .loginSnsIcon {
+    background-position: 0 -36px;
+}
+
+.xans-member-login .btnFacebook .loginSnsIcon {
+    background-position: -108px -36px;
+}
+
+.xans-member-login .btnGoogle .loginSnsIcon {
+    background-position: -216px -36px;
+}
+
+.xans-member-login .btnKakao .loginSnsIcon {
+    background-position: -54px -36px;
+}
+
+.xans-member-login .snsLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.xans-member-login .snsLogin li {
+    margin-right: 20px;
+}
+
+.xans-member-login .snsLogin li:last-child {
+    margin-right: 0;
+}
+
+.xans-member-login .snsLogin li i {
+    font-size: 40px;
+}
+
+.xans-member-login .ec-base-button.gFull [class*="btn"] {
+    margin: 5px 0 10px;
+}
+
+.xans-member-login .joinMember,
+.xans-member-login .ec-base-button.gFull .btnSubmit,
+.xans-myshop-orderhistorynologin .ec-base-button.gFull .btnSubmit,
+.xans-myshop-orderhistorynologin .ec-base-button.gFull .btnEm {
+    height: 60px;
+    line-height: 60px;
+    font-size: var(--normal-font);
+    font-weight: var(--bold-font);
+}
+
+.xans-member-login #member_id,
+.xans-member-login #member_passwd {
+    font-size: 15px;
+    font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+
+.xans-member-login .ec-base-tab.gMerge ul li:first-child a {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #fff;
+}
+
+.xans-member-login .ec-base-tab a {
+    padding: 15px 10px
+}
+
+.xans-member-login .ec-base-tab.gMerge ul li:last-child a,
+.xans-myshop-orderhistorynologin .ec-base-tab.gMerge ul li:first-child a {
+    color: var(--sec-font-color);
+    border-bottom: 1px solid var(--sec-font-color);
+}
+
+.xans-myshop-orderhistorynologin .ec-base-tab.gMerge ul li:last-child a {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #fff;
+}
+
+.xans-member-login .ec-base-tab li.selected a {
+    margin: 0;
+}
+
+.xans-member-login .formBox .form input[type="text"],
+.xans-member-login .formBox .form input[type="password"] {
+    height: 50px;
+}
